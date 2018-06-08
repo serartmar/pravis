@@ -1,30 +1,16 @@
 {
-    "name": "Pravis",
-    "version": "1.0.0",
-    "description": "New build",
-    "author": "serartmar",
-    "license": "MIT",
-    "main": "index.html",
-    "scripts": {
-        "autoprefixer": "postcss -u autoprefixer -r production/css/*.css",
-        "scss": "node-sass --output-style expanded --indent-width 4 -o production/css development/scss",
-        "uglify": "uglifyjs development/js/*.js -m -o production/js/scripts.js",
-        "serve": "browser-sync start --server --files \"production/css/*.css, production/js/*.js\"",
-        "build:css": "npm run scss && npm run autoprefixer",
-        "build:js": "npm run uglify",
-        "build:all": "npm run build:css && npm run build:js",
-        "watch:css": "onchange \"development/scss\" -- npm run build:css",
-        "watch:js": "onchange \"development/js\" -- npm run build:js",
-        "watch:all": "npm-run-all -p serve watch:css watch:js",
-        "start": "npm run build:all && npm run watch:all"
-    },
-    "devDependencies": {
-        "node-sass": "^4.5.0",
-        "postcss-cli": "^5.0.0",
-        "autoprefixer": "^8.6.1",
-        "browser-sync": "^2.18.8",
-        "npm-run-all": "^4.0.2",
-        "onchange": "^4.0.0",
-        "uglify-js": "^3.4.0"
-    }
+  "name": "pravis3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
