@@ -20,11 +20,11 @@
     },
     "devDependencies": {
         "node-sass": "^4.5.0",
-        "postcss-cli": "^3.0.0-beta",
-        "autoprefixer": "^6.7.6",
+        "postcss-cli": "^5.0.0",
+        "autoprefixer": "^8.6.1",
         "browser-sync": "^2.18.8",
         "npm-run-all": "^4.0.2",
-        "onchange": "^3.2.1",
-        "uglify-js": "^2.8.3"
+        "onchange": "^4.0.0",
+        "uglify-js": "^3.4.0"
     }
 }
