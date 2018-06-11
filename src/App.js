@@ -14,13 +14,13 @@ const App = () => (
           <img width="60px" height="60px" src={logo} alt="Лого Правіс" />
           <div className="header-left-column">
             <div className="header-left-column-wrapper">
-              <p className="no-marging company-name">Pravis</p>
-              <p className="no-marging">Ліквідація ТзОВ в Києві</p>
+              <p className="no-margin company-name">Pravis</p>
+              <p className="no-margin">Ліквідація ТзОВ в Києві</p>
             </div>
           </div>
           <div className="auto-margin">
-            <p className="no-marging">8 (846) 221-03-79</p>
-            <p className="no-marging">Киев, ул. Шевченка, 118</p>
+            <p className="no-margin">8 (846) 221-03-79</p>
+            <p className="no-margin">Киев, ул. Шевченка, 118</p>
           </div>
         </div>
       </div>
