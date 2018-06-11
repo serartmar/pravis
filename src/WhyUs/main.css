@@ -1,0 +1,35 @@
+.why-us-header {
+  color: rgba(0, 180, 117, 1);
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.why-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.why-us-reason-header {
+  color: rgba(0, 180, 117, 1);
+  font-size: 18px;
+}
+
+.why-us-reason-p {
+  font-weight: 300;
+}
+
+.why-us-reason {
+  width: 400px;
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+
+.why-us-reason-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
