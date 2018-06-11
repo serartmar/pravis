@@ -1,12 +1,12 @@
 import React from 'react';
-import './main.css'
+import './main.css';
 
 class Form extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       name: '',
-      phone: ''
+      phone: '',
     };
 
     this.handleNameChange = this.handleNameChange.bind(this);
@@ -15,25 +15,25 @@ class Form extends React.Component {
   }
 
   handleNameChange(event) {
-    this.setState({name: event.target.value});
+    this.setState({ name: event.target.value });
   }
 
   handlePhoneChange(event) {
-    this.setState({phone: event.target.value});
+    this.setState({ phone: event.target.value });
   }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
+    alert(`Ім'я та номер телефону були надіслані: ${this.state.name}, ${this.state.phone}`);
     event.preventDefault();
   }
 
   render() {
     return (
       <div className="form-wrapper" >
-        <form className='form' onSubmit={this.handleSubmit}>
+        <form className="form" onSubmit={this.handleSubmit}>
           <input className="name-input" type="text" value={this.state.name} placeholder="Ваше ім'я" onChange={this.handleNameChange} />
           <input className="phone-input" type="tel" value={this.state.phone} placeholder="Ваш номер телефону" onChange={this.handlePhoneChange} />
-          <input className="submit-button"  type="submit" value="Надіслати" />
+          <input className="submit-button" type="submit" value="Надіслати" />
         </form>
       </div>
     );
