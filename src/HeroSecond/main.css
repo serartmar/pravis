@@ -1,0 +1,29 @@
+.hero-second {
+  height: 70vh;
+  background-image: url(../assets/фото2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-right: 20%;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-second {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-second > .hero-slogan {
+    width: 100%
+  }
+  .hero-second > .call-to-action {
+    width: 90vw;
+  }
+}

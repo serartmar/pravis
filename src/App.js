@@ -4,6 +4,7 @@ import './App.css';
 import Form from './Form';
 import WhyUs from './WhyUs';
 import WorkSchema from './WorkSchema';
+import HeroSecond from './HeroSecond';
 
 const App = () => (
   <div className="App">
@@ -41,6 +42,7 @@ const App = () => (
 
     <WhyUs />
     <WorkSchema />
+    <HeroSecond />
   </div>
 );
 
