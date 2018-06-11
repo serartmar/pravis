@@ -1,7 +1,12 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.dc83d449.js",
-  "main.js.map": "static/js/main.dc83d449.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.747cb2a3.css",
+  "main.css.map": "static/css/main.747cb2a3.css.map",
+  "main.js": "static/js/main.846fa507.js",
+  "main.js.map": "static/js/main.846fa507.js.map",
+  "static/media/DINPro-Light.woff2": "static/media/DINPro-Light.9e897c13.woff2",
+  "static/media/DINPro-Medium.woff2": "static/media/DINPro-Medium.80ca698b.woff2",
+  "static/media/RobotoSlab-Bold.woff2": "static/media/RobotoSlab-Bold.82c07617.woff2",
+  "static/media/RobotoSlab-Light.woff2": "static/media/RobotoSlab-Light.22d17a57.woff2",
+  "static/media/RobotoSlab-Regular.woff2": "static/media/RobotoSlab-Regular.9059802d.woff2",
+  "static/media/фото1.jpg": "static/media/фото1.9ad18465.jpg"
 }
