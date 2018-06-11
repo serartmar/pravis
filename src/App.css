@@ -1,28 +1,150 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url(./assets/fonts/RobotoSlab-Bold.woff2) format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url(./assets/fonts/RobotoSlab-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url(./assets/fonts/RobotoSlab-Light.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url(./assets/fonts/DINPro-Light.woff2) format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DINPro';
+  src: url(./assets/fonts/DINPro-Medium.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.header-wrappper {
+  /* background-color: rgba(128, 0, 128, 0.37); */
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left-column {
+  display: flex;
+}
+
+.header-left-column-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.no-marging {
+  margin: 0;
+}
+
+.auto-margin {
+  margin-left: auto;
+}
+
+.header-left-column-wrapper > :first-child {
+  margin-bottom: 5px;
+}
+
+.company-name {
+  color: rgba(0, 180, 117, 1);
+  font-weight: bold;
+}
+
+.hero {
+  height: 70vh;
+  background-image: url(./assets/фото1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.hero-slogan {
   color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.call-to-action {
+  color: white;
+  font-size: 15px;
+  font-weight: light;
+  text-align: center;
+  font-weight: 300;
 }
 
-.App-intro {
-  font-size: large;
+@media screen and (max-width: 700px) {
+  .hero-slogan {
+    width: 100%
+  }
+  .call-to-action {
+    width: 90vw;
+  }
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.call-to-action-wrapper {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
