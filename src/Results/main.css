@@ -1,0 +1,25 @@
+.results-section {
+  background-color: rgba(234, 234, 234, 1);
+}
+
+.results-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-description {
+  font-weight: 300;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.money-attention {
+  color: rgba(0, 180, 117, 1);
+}
+
+.results-icon {
+  margin: 30px;
+}

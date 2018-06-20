@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 
-const WhyUs = () => (
+const Cost = () => (
   <section>
     <div className="container">
       <div className="cost-wrapper">
@@ -52,4 +52,4 @@ const WhyUs = () => (
   </section>
 );
 
-export default WhyUs;
+export default Cost;

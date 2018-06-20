@@ -6,6 +6,7 @@ import WhyUs from './WhyUs';
 import WorkSchema from './WorkSchema';
 import HeroSecond from './HeroSecond';
 import Cost from './Cost';
+import Results from './Results';
 
 const App = () => (
   <div className="App">
@@ -45,6 +46,7 @@ const App = () => (
     <WorkSchema />
     <HeroSecond />
     <Cost />
+    <Results />
   </div>
 );
 
