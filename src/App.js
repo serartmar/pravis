@@ -8,6 +8,7 @@ import HeroSecond from './HeroSecond';
 import Cost from './Cost';
 import Results from './Results';
 import CallToAction3 from './CallToAction3';
+import Bankruptcy from './Bankruptcy';
 
 const App = () => (
   <div className="App">
@@ -49,6 +50,7 @@ const App = () => (
     <Cost />
     <Results />
     <CallToAction3 />
+    <Bankruptcy />
   </div>
 );
 
