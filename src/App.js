@@ -9,6 +9,7 @@ import Cost from './Cost';
 import Results from './Results';
 import CallToAction3 from './CallToAction3';
 import Bankruptcy from './Bankruptcy';
+import Map from './Map';
 
 const App = () => (
   <div className="App">
@@ -51,6 +52,7 @@ const App = () => (
     <Results />
     <CallToAction3 />
     <Bankruptcy />
+    <Map />
   </div>
 );
 
