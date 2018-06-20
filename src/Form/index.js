@@ -31,8 +31,8 @@ class Form extends React.Component {
     return (
       <div className="form-wrapper" >
         <form className="form" onSubmit={this.handleSubmit}>
-          <input className="name-input" type="text" value={this.state.name} placeholder="Ваше ім'я" onChange={this.handleNameChange} />
-          <input className="phone-input" type="tel" value={this.state.phone} placeholder="Ваш номер телефону" onChange={this.handlePhoneChange} />
+          <input className={`name-input ${this.props.grey && 'grey'}`} type="text" value={this.state.name} placeholder="Ваше ім'я" onChange={this.handleNameChange} />
+          <input className={`phone-input ${this.props.grey && 'grey'}`} type="tel" value={this.state.phone} placeholder="Ваш номер телефону" onChange={this.handlePhoneChange} />
           <input className="submit-button" type="submit" value="Надіслати" />
         </form>
       </div>

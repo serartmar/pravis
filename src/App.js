@@ -7,6 +7,7 @@ import WorkSchema from './WorkSchema';
 import HeroSecond from './HeroSecond';
 import Cost from './Cost';
 import Results from './Results';
+import CallToAction3 from './CallToAction3';
 
 const App = () => (
   <div className="App">
@@ -47,6 +48,7 @@ const App = () => (
     <HeroSecond />
     <Cost />
     <Results />
+    <CallToAction3 />
   </div>
 );
 
