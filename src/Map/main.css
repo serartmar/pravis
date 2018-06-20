@@ -10,6 +10,7 @@
   top: 30%;
   color: white;
   padding: 5px 50px 5px 15px;
+  font-size: 20px
 }
 
 .contacts > * {
@@ -32,5 +33,6 @@
     transform: translate(-50%);
     width: 60%;
     padding: 0 10px;
+    font-size: initial
   }
 }

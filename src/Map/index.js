@@ -10,6 +10,7 @@ const Map = () => (
       id="gmap_canvas"
       src="https://maps.google.com/maps?q=50%C2%B023'49.5%22N%2030%C2%B025'52.2%22E&t=&z=17&ie=UTF8&iwloc=&output=embed"
       scrolling="no"
+      frameBorder="0"
     />
     <div className="contacts">
       <h4>Контакти</h4>

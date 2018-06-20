@@ -53,6 +53,11 @@ const App = () => (
     <CallToAction3 />
     <Bankruptcy />
     <Map />
+    <footer>
+      <p>
+      @2018 Nazar Malanka/<span>Pravis</span>
+      </p>
+    </footer>
   </div>
 );
 
