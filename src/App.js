@@ -5,6 +5,7 @@ import Form from './Form';
 import WhyUs from './WhyUs';
 import WorkSchema from './WorkSchema';
 import HeroSecond from './HeroSecond';
+import Cost from './Cost';
 
 const App = () => (
   <div className="App">
@@ -43,6 +44,7 @@ const App = () => (
     <WhyUs />
     <WorkSchema />
     <HeroSecond />
+    <Cost />
   </div>
 );
 
