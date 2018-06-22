@@ -67,6 +67,7 @@ body {
   }
 }
 
+
 .header-wrappper {
   /* background-color: rgba(128, 0, 128, 0.37); */
   height: 70px;
@@ -74,6 +75,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+  font-size: 15px;
+  }
+  .header-wrappper {
+    height: 80px;
+  }
 }
 
 .header-left-column {
@@ -117,6 +127,8 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hero-slogan {
@@ -128,15 +140,14 @@ body {
 
 .call-to-action {
   color: white;
-  font-size: 15px;
-  font-weight: light;
   text-align: center;
   font-weight: 300;
 }
 
 @media screen and (max-width: 700px) {
   .hero-slogan {
-    width: 100%
+    width: 100%;
+    font-size: 22px
   }
   .call-to-action {
     width: 90vw;

@@ -26,7 +26,7 @@ const App = () => (
           </div>
           <div className="auto-margin">
             <p className="no-margin">8 (846) 221-03-79</p>
-            <p className="no-margin">Киев, ул. Шевченка, 118</p>
+            <p className="no-margin">Київ, вул. Шевченка, 118</p>
           </div>
         </div>
       </div>

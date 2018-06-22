@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 960px) {
   .hero-second {
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 

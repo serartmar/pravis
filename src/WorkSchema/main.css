@@ -16,6 +16,12 @@
   padding-bottom: 40px
 }
 
+@media screen and (max-width: 500px) {
+  .work-schema-element {
+  width: 95%;
+  }
+}
+
 .work-schema-text {
   padding-bottom: 10px;
   padding-left: 20px;

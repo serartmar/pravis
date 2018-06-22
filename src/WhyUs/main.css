@@ -2,7 +2,6 @@
   color: rgba(0, 180, 117, 1);
   font-size: 30px;
   text-align: center;
-  width: 50%;
 }
 
 .why-us-wrapper {
@@ -10,7 +9,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .why-us-reason-header {
@@ -26,6 +26,16 @@
   width: 400px;
   margin-left: 20px;
   margin-bottom: 45px;
+}
+
+@media screen and (max-width: 450px) {
+  .why-us-reason {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .why-us-header {
+    font-size: 22px;
+  }
 }
 
 .why-us-reason-wrapper {
